@@ -1,0 +1,14 @@
+name: Version me!
+description: A Github Action for Versioning
+author: Gevorg Martirosyan
+branding:
+  color: white
+  icon: more-horizontal
+runs:
+  using: docker
+  image: Dockerfile
+outputs:
+  new-version:
+    description: New version number
+  version-changed:
+    description: Version change boolean

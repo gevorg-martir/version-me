@@ -1,0 +1,31 @@
+branches: master
+plugins:
+- - '@semantic-release/commit-analyzer'
+  - preset: conventionalcommits
+- - '@semantic-release/release-notes-generator'
+  - preset: conventionalcommits
+    presetConfig:
+      types:
+      - type: feat
+        section: Features
+      - type: fix
+        section: Bug Fixes
+      - type: ci
+        section: Other Changes
+      - type: build
+        section: Other Changes
+      - type: refactor
+        section: Other Changes
+      - type: chore
+        section: Other Changes
+      - type: docs
+        section: Other Changes
+      - type: perf
+        section: Other Changes
+      - type: revert
+        section: Revert
+      - type: style
+        section: Other Changes
+      - type: test
+        section: Other Changes
+- '@semantic-release/github'
