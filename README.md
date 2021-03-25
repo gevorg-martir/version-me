@@ -15,7 +15,7 @@ It uses semantic release under the hood. And running on docker.
 ### Usage
 As simple as you think, just
 - Add this block of code to your workflow file.
-- Make sure you have .releaserc file in the root of the project
+- Make sure you have **.releaserc** file in the root of the project
 - Add GITHUB_TOKEN
 
 ``` yml
