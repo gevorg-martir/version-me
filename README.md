@@ -30,7 +30,7 @@ This action also outputs to values
     version-changed: boolean (in string format 'true' or 'false')
     new-version: string (example '1.4.5')
 
-Add id to your action and you can use them for your purposes example
+Add id to your action and you can use them for your purposes. Example bellow
 
 ```yml
     - name: Create a release
