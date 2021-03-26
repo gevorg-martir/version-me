@@ -25,12 +25,12 @@ As simple as you think, just
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-This action also outputs to values
-***
-    version-changed: boolean (in string format 'true' or 'false')
-    new-version: string (example '1.4.5')
+### This action outputs two values
+`version-changed: boolean` (in string format 'true' or 'false') \
+`new-version: string` (example '1.4.5')
 
-Add id to your action and you can use them for your purposes. Example bellow
+Add id to your action and you can use them for your purposes. \
+See Example
 
 ```yml
     - name: Create a release
