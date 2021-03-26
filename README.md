@@ -30,7 +30,7 @@ As simple as you think, just
 `new-version: string` (example '1.4.5')
 
 Add id to your action and you can use them for your purposes. \
-See Example
+*See Example below*
 
 ```yml
     - name: Create a release
