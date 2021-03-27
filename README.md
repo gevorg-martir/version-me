@@ -5,13 +5,13 @@
 
 **Version me** is a github action for automated release workflow. It uses semantic release under the hood.
 
-## Motivation
+### Motivation
 - To create action that could run on any repository for any language not only js.
   (That is why it is running on docker. That means action will have all dependencies)
 - Action that will use .releaserc.yml provided in the repo
   (Many actions still ignoring .releaserc.yml they are forcing to provide configuration inside workflow)
 
-## Usage
+### Usage
 As simple as you think, just
 - Add this block of code to your workflow file.
 - Make sure you have **.releaserc** file in the root of the project
@@ -24,7 +24,7 @@ As simple as you think, just
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-## Outputs
+### Outputs
 It outputs two values \
 `version-changed: boolean` (in string format 'true' or 'false') \
 `new-version: string` (example '1.4.5')
